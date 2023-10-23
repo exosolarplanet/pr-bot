@@ -4,3 +4,8 @@ author: "Ece Deniz"
 runs:
   using: "node16"
   main: "index.js"
+inputs:
+  test:
+    description: "whatever"
+    required: true
+    default: 'lol'
