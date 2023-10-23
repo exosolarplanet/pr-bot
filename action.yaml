@@ -1,0 +1,6 @@
+name: "Autoapproval"
+description: "Probot application for approving pull requests"
+author: "Ece Deniz"
+runs:
+  using: "node16"
+  main: "index.js"
