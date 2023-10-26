@@ -6,13 +6,13 @@ const github = require('@actions/github');
  * This is the main entrypoint to your Probot app
  * 
  */
-module.exports = (app) => {
+// module.exports = (app) => {
 
   const input = core.getInput('test');
   console.log('${input}');
   app.log.info("Yay, the app was loaded!");
   
-}
+// }
   // For more information on building apps:
   // https://probot.github.io/docs/
 
