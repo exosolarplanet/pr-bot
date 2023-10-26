@@ -4,7 +4,7 @@ const github = require('@actions/github');
 
 /**
  * This is the main entrypoint to your Probot app
- * @param {import('probot').Probot} app
+ * 
  */
 module.exports = (app) => {
 
